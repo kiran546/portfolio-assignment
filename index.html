@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav>
+        <header>
+            <a href="" class="logo">Portfolio</a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+                <li><a href="#views" onclick="toggleMenu();">View more</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">contact</a></li>
+            </ul>
+        </header>
+    </nav>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello , Iam <br><span>kiran begari</span></h2>
+            <h3>I'm a software developer</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm a software developer</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sit corporis quo enim qui, alias
+                    iure ullam. Quidem ullam debitis dolore doloremque iure, atque, molestias ipsam velit voluptatem
+                    explicabo fugiat nesciunt necessitatibus dicta nulla accusamus nostrum perferendis reiciendis eaque
+                    assumenda optio esse odit quod. Placeat odit quasi obcaecati explicabo iste necessitatibus officiis,
+                    ad dolorum vitae iusto, eum accusamus modi hic a et, est maiores. Tempore fuga maxime suscipit aut
+                    veniam eveniet labore dolore possimus. Numquam reprehenderit quod quasi repellendus et magnam non
+                    porro alias perferendis quo nostrum obcaecati autem quas ipsam, eaque hic! Ipsum dolorem, aliquid
+                    dolore voluptates quod optio veniam voluptatibus, quisquam dolorum sit amet eius mollitia magni
+                    aliquam eligendi laudantium laboriosam quibusdam illum cumque? Repellat soluta libero eius
+                    perferendis mollitia dolores ea. Eligendi, officia natus ullam commodi velit ducimus dolores tempora
+                    deleniti odit? Ab saepe eius debitis et repudiandae aperiam totam, quaerat iste adipisci nobis fuga
+                    ea eos dignissimos nulla quos commodi. Ratione iste minima tenetur error quaerat asperiores eaque.
+                    Commodi atque suscipit reprehenderit corporis quos ipsa perspiciatis dolorum temporibus.
+                    Repudiandae, quia quis doloribus quod aut quibusdam exercitationem tempore vero? Iusto, earum
+                    voluptatibus, cumque molestias optio eaque sequi deserunt sed quisquam unde minima, odio hic sunt
+                    nihil vel?
+                </p>
+            </div>
+            <div class="w50">
+                <img src="mine.jpeg" class="img" alt="">
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our services</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, debitis!
+            </p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="py1.jpeg" alt="">
+                <h2>web Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam maxime a quos laboriosam nisi ipsa
+                    repellat distinctio mollitia id perferendis.</p>
+
+            </div>
+            <div class="servicesBx">
+                <img src="py3.jpeg" alt="">
+                <h2>Androip App</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam maxime a quos laboriosam nisi ipsa
+                    repellat distinctio mollitia id perferendis.</p>
+
+            </div>
+            <div class="servicesBx">
+                <img src="py.jpeg" alt="">
+                <h2>photography</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam maxime a quos laboriosam nisi ipsa
+                    repellat distinctio mollitia id perferendis.</p>
+
+            </div> &nbsp;
+            <div class="servicesBx">
+                <img src="py4.jpeg" alt="">
+                <h2>python</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam maxime a quos laboriosam nisi ipsa
+                    repellat distinctio mollitia id perferendis.</p>
+
+            </div>
+            <div class="servicesBx">
+                <img src="py2.jpeg" alt="">
+                <h2>web Development</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam maxime a quos laboriosam nisi ipsa
+                    repellat distinctio mollitia id perferendis.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="view" id="views">
+            <h2>view more</h2>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, nam.</p>
+        </div>
+
+        <div class="slideshow-container">
+
+        
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="slideshow.jpeg" style="width:100%">
+                <div class="text">Fullstack developer</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="slideshow2.jpeg" style="width:100%">
+                <div class="text">webdeveloper</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slideshow3.jpeg" style="width:100%">
+                <div class="text">Datascience</div>
+            </div>
+
+    
+            <a class="previ" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="nexts" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact us</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="yalk">
+                            <h3>Address</h3>
+                            <p>nagarjuna grammar Road,<br>Gachibowli,Hyderabad,<br>500050</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="yalk">
+                            <h3>Phone</h3>
+                            <p>8309315802</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="yalk">
+                            <h3>Email</h3>
+                            <p>chavankiran636@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <input type="description" placeholder="Your message">
+                    <input type="submit" value="send">
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <a href="www.facebook.com" class="fa fa-facebook"></a>
+        <a href="www.twitter.com" class="fa fa-twitter"></a>
+        <a href="wwww.google.com" class="fa fa-google"></a>
+        <a href="www.linkedin.com" class="fa fa-linkedin"></a>
+        <div class="copyright">
+            <p>copyright @2020 kiran developers. All rights reserved</p>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+        }
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active')
+            menu.classList.toggle('active')
+        }
+
+    </script>
+
+</body>
+
+</html>
